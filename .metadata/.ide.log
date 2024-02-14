@@ -1,0 +1,276 @@
+2024-02-15 00:39:40,314 [INFO] Activator:176 - 
+
+
+2024-02-15 00:39:40,316 [INFO] Activator:177 - !SESSION log4j initialized
+2024-02-15 00:39:42,791 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2024-02-15 00:39:44,584 [INFO] ApplicationProperties:184 - Using Application install path: D:\Education\Soft\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037
+2024-02-15 00:39:44,599 [INFO] DbMcusXml:78 - Set database path to: D:\Education\Soft\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\/mcu/
+2024-02-15 00:39:44,601 [INFO] ApiDb:274 - Set plugin database path to: D:\Education\Soft\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\/plugins/boardmanager/
+2024-02-15 00:39:44,601 [WARN] ApiDb:259 - Overriding images path with different value:  => D:\Education\Soft\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\/plugins/mcufinder/images/
+2024-02-15 00:39:45,628 [WARN] ApiFinderProperties:113 - C:\Users\danil\.stmcufinder\plugins\mcufinder\mcu\mcuFinder.mfd doesn't exist
+2024-02-15 00:39:45,629 [INFO] ApiDb:250 - Set database path to: C:\Users\danil\.stmcufinder\plugins\mcufinder//mcu/
+2024-02-15 00:39:45,630 [INFO] DbMcusAds:125 - Set database path to: C:\Users\danil\.stmcufinder\plugins\mcufinder//mcu/
+2024-02-15 00:39:45,632 [INFO] CrossReferenceDbSqlite:203 - Set database path to: C:\Users\danil\.stmcufinder\plugins\mcufinder//mcu/cs/
+2024-02-15 00:39:45,713 [INFO] RulesReader:64 - Compatibility file has been processed (297 Rules)
+2024-02-15 00:39:45,785 [INFO] DbMcusXml:78 - Set database path to: D:\Education\Soft\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\/mcu/
+2024-02-15 00:39:45,785 [INFO] ApiDb:274 - Set plugin database path to: D:\Education\Soft\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\/plugins/boardmanager/
+2024-02-15 00:39:45,786 [INFO] ApiDb:261 - Set plugin images path to: D:\Education\Soft\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\/plugins/mcufinder/images/
+2024-02-15 00:39:45,786 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\danil\.stmcufinder\plugins\mcufinder/ => C:\Users\danil\.stmcufinder\plugins\mcufinder
+2024-02-15 00:39:45,786 [INFO] ApiDb:250 - Set database path to: C:\Users\danil\.stmcufinder\plugins\mcufinder//mcu/
+2024-02-15 00:39:45,786 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\danil\.stmcufinder\plugins\mcufinder/ => C:\Users\danil\.stmcufinder\plugins\mcufinder
+2024-02-15 00:39:45,786 [INFO] DbMcusAds:125 - Set database path to: C:\Users\danil\.stmcufinder\plugins\mcufinder//mcu/
+2024-02-15 00:39:45,786 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\danil\.stmcufinder\plugins\mcufinder/ => C:\Users\danil\.stmcufinder\plugins\mcufinder
+2024-02-15 00:39:45,786 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\danil\.stmcufinder\plugins\mcufinder/ => C:\Users\danil\.stmcufinder\plugins\mcufinder
+2024-02-15 00:39:45,786 [INFO] CrossReferenceDbSqlite:203 - Set database path to: C:\Users\danil\.stmcufinder\plugins\mcufinder//mcu/cs/
+2024-02-15 00:39:45,860 [INFO] MainPanel:264 - HeapMemory: 268435456
+2024-02-15 00:39:45,922 [INFO] DbMcusXml:78 - Set database path to: D:\Education\Soft\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\/mcu/
+2024-02-15 00:39:45,923 [INFO] ApiDb:274 - Set plugin database path to: D:\Education\Soft\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\/plugins/boardmanager/
+2024-02-15 00:39:45,923 [INFO] ApiDb:261 - Set plugin images path to: D:\Education\Soft\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\/plugins/mcufinder/images/
+2024-02-15 00:39:45,923 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\danil\.stmcufinder\plugins\mcufinder/ => C:\Users\danil\.stmcufinder\plugins\mcufinder
+2024-02-15 00:39:45,923 [INFO] ApiDb:250 - Set database path to: C:\Users\danil\.stmcufinder\plugins\mcufinder//mcu/
+2024-02-15 00:39:45,923 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\danil\.stmcufinder\plugins\mcufinder/ => C:\Users\danil\.stmcufinder\plugins\mcufinder
+2024-02-15 00:39:45,923 [INFO] DbMcusAds:125 - Set database path to: C:\Users\danil\.stmcufinder\plugins\mcufinder//mcu/
+2024-02-15 00:39:45,923 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\danil\.stmcufinder\plugins\mcufinder/ => C:\Users\danil\.stmcufinder\plugins\mcufinder
+2024-02-15 00:39:45,923 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\danil\.stmcufinder\plugins\mcufinder/ => C:\Users\danil\.stmcufinder\plugins\mcufinder
+2024-02-15 00:39:45,923 [INFO] CrossReferenceDbSqlite:203 - Set database path to: C:\Users\danil\.stmcufinder\plugins\mcufinder//mcu/cs/
+2024-02-15 00:39:45,941 [INFO] ApplicationProperties:184 - Using Application install path: D:\Education\Soft\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037
+2024-02-15 00:39:45,942 [INFO] PluginManage:196 - Search for loadable plugins [exclusion list=, ]
+2024-02-15 00:39:45,943 [INFO] PluginManage:310 - Check plugin analytics
+2024-02-15 00:39:46,081 [INFO] AnalyticsPlugin:253 - Accepted Software Licenses: 
+2024-02-15 00:39:46,081 [INFO] AnalyticsPlugin:255 - Accepted CMSIS Pack Licenses: 
+2024-02-15 00:39:46,082 [INFO] AnalyticsPlugin:257 - Accepted Firmware Licenses: 
+2024-02-15 00:39:46,083 [INFO] PluginManage:359 - Loaded plugin analytics (category:tool,tabindex:-1)
+2024-02-15 00:39:46,084 [INFO] PluginManage:310 - Check plugin cadmodel
+2024-02-15 00:39:46,088 [INFO] CADModel:105 - Init CAD model plugin
+2024-02-15 00:39:46,088 [INFO] PluginManage:359 - Loaded plugin cadmodel (category:power,tabindex:5)
+2024-02-15 00:39:46,089 [INFO] PluginManage:310 - Check plugin clock
+2024-02-15 00:39:46,098 [INFO] PluginManage:359 - Loaded plugin clock (category:base,tabindex:2)
+2024-02-15 00:39:46,098 [INFO] PluginManage:310 - Check plugin ddr
+2024-02-15 00:39:46,101 [INFO] PluginManage:359 - Loaded plugin ddr (category:tool,tabindex:6)
+2024-02-15 00:39:46,102 [INFO] PluginManage:310 - Check plugin filemanager
+2024-02-15 00:39:46,252 [INFO] PluginManage:359 - Loaded plugin filemanager (category:base,tabindex:10)
+2024-02-15 00:39:46,252 [INFO] PluginManage:310 - Check plugin ipmanager
+2024-02-15 00:39:46,262 [INFO] PluginManage:359 - Loaded plugin ipmanager (category:base,tabindex:5)
+2024-02-15 00:39:46,263 [INFO] PluginManage:310 - Check plugin lpbam
+2024-02-15 00:39:46,279 [INFO] PluginManage:359 - Loaded plugin lpbam (category:base,tabindex:0)
+2024-02-15 00:39:46,279 [INFO] PluginManage:310 - Check plugin memorymap
+2024-02-15 00:39:46,293 [INFO] PluginManage:359 - Loaded plugin memorymap (category:base,tabindex:4)
+2024-02-15 00:39:46,293 [INFO] PluginManage:310 - Check plugin pinoutandconfiguration
+2024-02-15 00:39:46,299 [INFO] PluginManage:359 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2024-02-15 00:39:46,301 [INFO] PluginManage:310 - Check plugin pinoutconfig
+2024-02-15 00:39:46,377 [WARN] SupportedApi:132 - Cannot load RTOS API schema: s4s-elt-must-match.1: The content of 'definitions' must match (annotation?, (simpleType | complexType)?, (unique | key | keyref)*)). A problem was found starting at: attribute.
+2024-02-15 00:39:46,485 [INFO] PluginManage:359 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2024-02-15 00:39:46,485 [INFO] PluginManage:310 - Check plugin power
+2024-02-15 00:39:46,491 [INFO] PluginManage:359 - Loaded plugin power (category:power,tabindex:4)
+2024-02-15 00:39:46,491 [INFO] PluginManage:310 - Check plugin projectmanager
+2024-02-15 00:39:46,504 [INFO] PluginManage:359 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2024-02-15 00:39:46,505 [INFO] PluginManage:310 - Check plugin thirdparty
+2024-02-15 00:39:46,586 [INFO] PluginManage:359 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2024-02-15 00:39:46,586 [INFO] PluginManage:310 - Check plugin tools
+2024-02-15 00:39:46,586 [WARN] IntegrityCheckThread:84 - waiting for thirdparty lock release [integrity check]
+2024-02-15 00:39:46,586 [INFO] IntegrityCheckThread:86 - entering critical section [integrity check]
+2024-02-15 00:39:46,587 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [1/15]
+2024-02-15 00:39:46,588 [INFO] PluginManage:359 - Loaded plugin tools (category:base,tabindex:7)
+2024-02-15 00:39:46,588 [INFO] PluginManage:310 - Check plugin tutovideos
+2024-02-15 00:39:46,728 [INFO] PluginManage:359 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2024-02-15 00:39:46,728 [INFO] PluginManage:310 - Check plugin updater
+2024-02-15 00:39:46,736 [INFO] PluginManage:359 - Loaded plugin updater (category:base,tabindex:12)
+2024-02-15 00:39:46,736 [INFO] PluginManage:310 - Check plugin userauth
+2024-02-15 00:39:46,741 [INFO] UserAuth:114 - Init User Auth plugin
+2024-02-15 00:39:46,741 [INFO] PluginManage:359 - Loaded plugin userauth (category:base,tabindex:14)
+2024-02-15 00:39:46,742 [INFO] PluginManage:283 - PluginManage : Loaded plugins [17]
+2024-02-15 00:39:46,899 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2024-02-15 00:39:46,952 [INFO] CADModel:165 - CPN selected for project level
+2024-02-15 00:39:46,952 [INFO] CADModel:114 - Register for checkConnection events
+2024-02-15 00:39:46,962 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:46,963 [INFO] PluginManager:220 - loadIPPluginJar : add adc
+2024-02-15 00:39:46,964 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:46,965 [INFO] PluginManager:220 - loadIPPluginJar : add aes
+2024-02-15 00:39:46,966 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:46,966 [INFO] PluginManager:220 - loadIPPluginJar : add can
+2024-02-15 00:39:46,967 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:46,967 [INFO] PluginManager:220 - loadIPPluginJar : add comp
+2024-02-15 00:39:46,968 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:46,968 [INFO] PluginManager:220 - loadIPPluginJar : add cryp
+2024-02-15 00:39:46,969 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:46,969 [INFO] PluginManager:220 - loadIPPluginJar : add dfsdm
+2024-02-15 00:39:46,973 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:46,973 [INFO] PluginManager:220 - loadIPPluginJar : add dma
+2024-02-15 00:39:46,975 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:46,975 [INFO] PluginManager:220 - loadIPPluginJar : add dma3
+2024-02-15 00:39:46,975 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:46,975 [INFO] PluginManager:220 - loadIPPluginJar : add fatfs
+2024-02-15 00:39:46,978 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:46,978 [INFO] PluginManager:220 - loadIPPluginJar : add fmc
+2024-02-15 00:39:46,981 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:46,981 [INFO] PluginManager:220 - loadIPPluginJar : add freertos
+2024-02-15 00:39:46,982 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:46,982 [INFO] PluginManager:220 - loadIPPluginJar : add genericplugin
+2024-02-15 00:39:46,983 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:46,983 [INFO] PluginManager:220 - loadIPPluginJar : add gfxmmu
+2024-02-15 00:39:46,986 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:46,986 [INFO] PluginManager:220 - loadIPPluginJar : add gic
+2024-02-15 00:39:46,988 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:46,988 [INFO] PluginManager:220 - loadIPPluginJar : add gpio
+2024-02-15 00:39:46,989 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:46,989 [INFO] PluginManager:220 - loadIPPluginJar : add gtzc
+2024-02-15 00:39:46,990 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:46,991 [INFO] PluginManager:220 - loadIPPluginJar : add hash
+2024-02-15 00:39:46,992 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:46,992 [INFO] PluginManager:220 - loadIPPluginJar : add i2c
+2024-02-15 00:39:46,992 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:46,992 [INFO] PluginManager:220 - loadIPPluginJar : add i2s
+2024-02-15 00:39:46,995 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:46,995 [INFO] PluginManager:220 - loadIPPluginJar : add i3c
+2024-02-15 00:39:46,996 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:46,996 [INFO] PluginManager:220 - loadIPPluginJar : add ipddr
+2024-02-15 00:39:47,001 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:47,001 [INFO] PluginManager:220 - loadIPPluginJar : add linkedlist
+2024-02-15 00:39:47,002 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:47,002 [INFO] PluginManager:220 - loadIPPluginJar : add lorawan
+2024-02-15 00:39:47,003 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:47,003 [INFO] PluginManager:220 - loadIPPluginJar : add ltdc
+2024-02-15 00:39:47,006 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:47,008 [INFO] PluginManager:220 - loadIPPluginJar : add mdma
+2024-02-15 00:39:47,009 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:47,009 [INFO] PluginManager:220 - loadIPPluginJar : add nvic
+2024-02-15 00:39:47,011 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:47,011 [INFO] PluginManager:220 - loadIPPluginJar : add opamp
+2024-02-15 00:39:47,012 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:47,012 [INFO] PluginManager:220 - loadIPPluginJar : add openamp
+2024-02-15 00:39:47,013 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:47,013 [INFO] PluginManager:220 - loadIPPluginJar : add pdm2pcm
+2024-02-15 00:39:47,017 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:47,019 [INFO] PluginManager:220 - loadIPPluginJar : add plateformsettings
+2024-02-15 00:39:47,020 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:47,020 [INFO] PluginManager:220 - loadIPPluginJar : add quadspi
+2024-02-15 00:39:47,022 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:47,022 [INFO] PluginManager:220 - loadIPPluginJar : add resmgrutility
+2024-02-15 00:39:47,024 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:47,024 [INFO] PluginManager:220 - loadIPPluginJar : add sai
+2024-02-15 00:39:47,025 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:47,025 [INFO] PluginManager:220 - loadIPPluginJar : add spi
+2024-02-15 00:39:47,028 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:47,028 [INFO] PluginManager:220 - loadIPPluginJar : add stm32_wpan
+2024-02-15 00:39:47,029 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:47,029 [INFO] PluginManager:220 - loadIPPluginJar : add tim
+2024-02-15 00:39:47,030 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:47,030 [INFO] PluginManager:220 - loadIPPluginJar : add touchsensing
+2024-02-15 00:39:47,031 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:47,031 [INFO] PluginManager:220 - loadIPPluginJar : add tracer_emb
+2024-02-15 00:39:47,032 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:47,032 [INFO] PluginManager:220 - loadIPPluginJar : add ts
+2024-02-15 00:39:47,032 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:47,032 [INFO] PluginManager:220 - loadIPPluginJar : add tsc
+2024-02-15 00:39:47,034 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:47,034 [INFO] PluginManager:220 - loadIPPluginJar : add ucpd
+2024-02-15 00:39:47,035 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:47,035 [INFO] PluginManager:220 - loadIPPluginJar : add usart
+2024-02-15 00:39:47,036 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-02-15 00:39:47,036 [INFO] PluginManager:220 - loadIPPluginJar : add usbx
+2024-02-15 00:39:47,154 [INFO] CADModel:165 - CPN selected for project level
+2024-02-15 00:39:47,154 [INFO] CADModel:114 - Register for checkConnection events
+2024-02-15 00:39:47,155 [FATAL] Updater:308 - Updater called before beeing initialized
+2024-02-15 00:39:47,155 [ERROR] CADModel:125 - Updater not yet initialized, retry later 
+2024-02-15 00:39:47,265 [INFO] CADModel:165 - CPN selected for project level
+2024-02-15 00:39:47,265 [INFO] CADModel:114 - Register for checkConnection events
+2024-02-15 00:39:47,265 [FATAL] Updater:308 - Updater called before beeing initialized
+2024-02-15 00:39:47,266 [ERROR] CADModel:125 - Updater not yet initialized, retry later 
+2024-02-15 00:39:47,268 [FATAL] Updater:308 - Updater called before beeing initialized
+2024-02-15 00:39:47,357 [FATAL] Updater:308 - Updater called before beeing initialized
+2024-02-15 00:39:47,361 [INFO] DbMcusAds:53 - JSON generation date=Thu Sep 30 09:55:09 EEST 2021 (1632984909247)
+2024-02-15 00:39:47,361 [FATAL] Updater:308 - Updater called before beeing initialized
+2024-02-15 00:39:47,389 [WARN] DetailPanel:346 - Failed to get advertising image, set to default
+2024-02-15 00:39:47,476 [FATAL] Updater:308 - Updater called before beeing initialized
+2024-02-15 00:39:47,477 [FATAL] Updater:308 - Updater called before beeing initialized
+2024-02-15 00:39:47,477 [FATAL] Updater:308 - Updater called before beeing initialized
+2024-02-15 00:39:47,477 [WARN] DetailPanel:346 - Failed to get advertising image, set to default
+2024-02-15 00:39:47,478 [FATAL] Updater:308 - Updater called before beeing initialized
+2024-02-15 00:39:47,518 [ERROR] Updater:1120 - MainUpdater not yet initialized. External WinMGr cannot be set.
+2024-02-15 00:39:47,520 [INFO] Updater:1056 - Updater Version found : 6.10.0
+2024-02-15 00:39:47,536 [INFO] ApplicationProperties:184 - Using Application install path: D:\Education\Soft\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037
+2024-02-15 00:39:49,111 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Feb 15, 2024 12:39:49 AM java.util.prefs.WindowsPreferences <init>
+2024-02-15 00:39:49,114 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Could not open/create prefs root node Software\JavaSoft\Prefs at root 0xffffffff80000002. Windows RegCreateKeyEx(...) returned error code 5.
+2024-02-15 00:39:49,114 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2024-02-15 00:39:49,128 [INFO] MainUpdater:526 - Copy updater definitions from MX database
+2024-02-15 00:39:49,158 [INFO] MainUpdater:559 - Copy flag file definitions from MX database
+2024-02-15 00:39:49,159 [INFO] MainUpdater:575 - Copy thirdparty index definitions from MX database
+2024-02-15 00:39:49,161 [INFO] MainUpdater:594 - Copy default thirdparty db definitions from MX database
+2024-02-15 00:39:49,588 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [2/15]
+2024-02-15 00:39:49,625 [INFO] MainUpdater:2873 - connection check result : 10
+2024-02-15 00:39:49,626 [INFO] MainUpdater:3567 - Updater definition file requires update
+2024-02-15 00:39:49,638 [INFO] MainUpdater:290 - Updater Check For Update Now.
+2024-02-15 00:39:49,638 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.100
+2024-02-15 00:39:49,643 [INFO] McuFinderGlobals:63 - Set McuFinder mode to 2 (CubeIDE integrated)
+2024-02-15 00:39:49,643 [INFO] UserAuth:180 - activating auth plugin
+2024-02-15 00:39:49,645 [INFO] UserAuth:404 - Internet connection configuration mode: 1
+2024-02-15 00:39:49,655 [INFO] JxBrowserEngine:152 - Initiate JxBrowser Engine with user profile folder
+2024-02-15 00:39:49,697 [INFO] ServerAccessManage:473 - Download File updaters.zip
+2024-02-15 00:39:49,774 [INFO] FileExtend:240 - Unzip File : updaters.zip
+2024-02-15 00:39:49,774 [INFO] FileExtend:255 - Standard Zip Deflate
+2024-02-15 00:39:50,071 [INFO] ServerAccessManage:473 - Download File PacksControlFlags.xml
+2024-02-15 00:39:50,150 [INFO] ServerAccessManage:473 - Download File cubemx.pidx
+2024-02-15 00:39:50,270 [INFO] ServerAccessManage:473 - Download File STMicroelectronics.FP-ATR-ASTRA1.pdsc
+2024-02-15 00:39:50,694 [INFO] ServerAccessManage:473 - Download File STMicroelectronics.FP-ATR-SIGFOX1.pdsc
+2024-02-15 00:39:50,740 [INFO] ServerAccessManage:473 - Download File STMicroelectronics.FP-SNS-FLIGHT1.pdsc
+2024-02-15 00:39:50,830 [INFO] ServerAccessManage:473 - Download File STMicroelectronics.FP-SNS-MOTENV1.pdsc
+2024-02-15 00:39:50,969 [INFO] ServerAccessManage:473 - Download File STMicroelectronics.FP-SNS-MOTENVWB1.pdsc
+2024-02-15 00:39:51,047 [INFO] ServerAccessManage:473 - Download File STMicroelectronics.FP-SNS-SMARTAG2.pdsc
+2024-02-15 00:39:51,105 [INFO] ServerAccessManage:473 - Download File STMicroelectronics.X-CUBE-AI.pdsc
+2024-02-15 00:39:51,446 [INFO] ServerAccessManage:473 - Download File STMicroelectronics.X-CUBE-ALS.pdsc
+2024-02-15 00:39:51,536 [INFO] ServerAccessManage:473 - Download File STMicroelectronics.X-CUBE-BLE1.pdsc
+2024-02-15 00:39:51,990 [ERROR] ServerAccessManage:1089 - Problem, file not found on Server
+2024-02-15 00:39:52,004 [INFO] ServerAccessManage:473 - Download File STMicroelectronics.X-CUBE-BLE2.pdsc
+2024-02-15 00:39:52,147 [INFO] ServerAccessManage:473 - Download File STMicroelectronics.X-CUBE-BLEMGR.pdsc
+2024-02-15 00:39:52,268 [INFO] ServerAccessManage:473 - Download File STMicroelectronics.X-CUBE-DISPLAY.pdsc
+2024-02-15 00:39:52,404 [INFO] ServerAccessManage:473 - Download File STMicroelectronics.X-CUBE-EEPRMA1.pdsc
+2024-02-15 00:39:52,588 [WARN] MainUpdater:1194 - Updater busy. Cannot search thirdparties
+2024-02-15 00:39:52,588 [INFO] ThirdPartyUpdaterWithRetryManager:96 - Updater plugin is busy. [1/15]
+2024-02-15 00:39:52,699 [ERROR] ServerAccessManage:1089 - Problem, file not found on Server
+2024-02-15 00:39:52,986 [ERROR] ServerAccessManage:1089 - Problem, file not found on Server
+2024-02-15 00:39:53,034 [INFO] ServerAccessManage:473 - Download File STMicroelectronics.X-CUBE-FREERTOS.pdsc
+2024-02-15 00:39:53,136 [INFO] ServerAccessManage:473 - Download File STMicroelectronics.X-CUBE-GNSS1.pdsc
+2024-02-15 00:39:53,383 [INFO] WebApp:161 - Instantiating new browser for Auth
+2024-02-15 00:39:53,624 [ERROR] ServerAccessManage:1089 - Problem, file not found on Server
+2024-02-15 00:39:53,811 [INFO] WebApp:780 - Register for checkConnection events
+2024-02-15 00:39:53,812 [INFO] WebApp:414 - Apply proxy settings
+2024-02-15 00:39:53,812 [INFO] WebApp:499 - Chromium requires no authentication
+2024-02-15 00:39:53,817 [INFO] WebApp:442 - Direct internet connection detected
+2024-02-15 00:39:53,876 [ERROR] ServerAccessManage:1089 - Problem, file not found on Server
+2024-02-15 00:39:53,935 [INFO] WebApp:192 - Starting web application
+2024-02-15 00:39:53,935 [INFO] WebApp:544 - Web application path used D:\Education\Soft\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\db\plugins\mcufinder\reactClient1\index.html
+2024-02-15 00:39:54,024 [ERROR] ServerAccessManage:1089 - Problem, file not found on Server
+2024-02-15 00:39:54,269 [ERROR] ServerAccessManage:1089 - Problem, file not found on Server
+2024-02-15 00:39:54,404 [ERROR] ServerAccessManage:1089 - Problem, file not found on Server
+2024-02-15 00:39:54,547 [ERROR] ServerAccessManage:1089 - Problem, file not found on Server
+2024-02-15 00:39:54,557 [INFO] ServerAccessManage:473 - Download File STMicroelectronics.X-CUBE-ISPU.pdsc
+2024-02-15 00:39:54,640 [INFO] ServerAccessManage:473 - Download File STMicroelectronics.X-CUBE-MEMS1.pdsc
+2024-02-15 00:39:54,977 [INFO] ServerAccessManage:473 - Download File STMicroelectronics.X-CUBE-NFC4.pdsc
+2024-02-15 00:39:55,256 [INFO] ServerAccessManage:473 - Download File STMicroelectronics.X-CUBE-NFC6.pdsc
+2024-02-15 00:39:55,589 [WARN] MainUpdater:1194 - Updater busy. Cannot search thirdparties
+2024-02-15 00:39:55,589 [INFO] ThirdPartyUpdaterWithRetryManager:96 - Updater plugin is busy. [2/15]
+2024-02-15 00:39:56,318 [INFO] ServerAccessManage:473 - Download File STMicroelectronics.X-CUBE-NFC7.pdsc
+2024-02-15 00:39:56,372 [INFO] ServerAccessManage:473 - Download File STMicroelectronics.X-CUBE-SFXS2LP1.pdsc
+2024-02-15 00:39:56,466 [INFO] ServerAccessManage:473 - Download File STMicroelectronics.X-CUBE-SUBG2.pdsc
+2024-02-15 00:39:56,644 [INFO] ServerAccessManage:473 - Download File STMicroelectronics.X-CUBE-SMBUS.pdsc
+2024-02-15 00:39:56,890 [ERROR] ServerAccessManage:1089 - Problem, file not found on Server
+2024-02-15 00:39:56,904 [INFO] ServerAccessManage:473 - Download File STMicroelectronics.X-CUBE-TOF1.pdsc
+2024-02-15 00:39:57,241 [ERROR] ServerAccessManage:1089 - Problem, file not found on Server
+2024-02-15 00:39:57,264 [INFO] ServerAccessManage:473 - Download File STMicroelectronics.X-CUBE-TOUCHGFX.pdsc
+2024-02-15 00:39:57,613 [INFO] ServerAccessManage:473 - Download File STMicroelectronics.X-CUBE-ALGOBUILD.pdsc
+2024-02-15 00:39:57,700 [INFO] ServerAccessManage:473 - Download File STMicroelectronics.X-CUBE-AZRTOS-H7.pdsc
+2024-02-15 00:39:57,875 [INFO] ServerAccessManage:473 - Download File STMicroelectronics.X-CUBE-AZRTOS-F4.pdsc
+2024-02-15 00:39:57,970 [INFO] ServerAccessManage:473 - Download File STMicroelectronics.X-CUBE-AZRTOS-F7.pdsc
+2024-02-15 00:39:58,051 [INFO] ServerAccessManage:473 - Download File STMicroelectronics.X-CUBE-AZRTOS-L4.pdsc
+2024-02-15 00:39:58,159 [INFO] ServerAccessManage:473 - Download File STMicroelectronics.X-CUBE-AZRTOS-L5.pdsc
+2024-02-15 00:39:58,262 [INFO] ServerAccessManage:473 - Download File STMicroelectronics.X-CUBE-AZRTOS-G0.pdsc
+2024-02-15 00:39:58,348 [INFO] ServerAccessManage:473 - Download File STMicroelectronics.X-CUBE-AZRTOS-G4.pdsc
+2024-02-15 00:39:58,428 [INFO] ServerAccessManage:473 - Download File STMicroelectronics.X-CUBE-AZRTOS-WB.pdsc
+2024-02-15 00:39:58,517 [INFO] ServerAccessManage:473 - Download File STMicroelectronics.X-CUBE-AZRTOS-WL.pdsc
+2024-02-15 00:39:58,590 [WARN] MainUpdater:1194 - Updater busy. Cannot search thirdparties
+2024-02-15 00:39:58,590 [INFO] ThirdPartyUpdaterWithRetryManager:96 - Updater plugin is busy. [3/15]
+2024-02-15 00:39:59,236 [INFO] ServerAccessManage:473 - Download File wolfSSL.I-CUBE-wolfSSL.pdsc
+2024-02-15 00:40:01,249 [ERROR] ExternalUserPreferencesManager:606 - Error while get path from external application: Cannot invoke "com.st.stm32cube.common.mx.MxActivator.getBundle()" because the return value of "com.st.stm32cube.common.mx.MxActivator.getDefault()" is null
+2024-02-15 00:40:01,249 [ERROR] ExternalUserPreferencesManager:336 - Error while get preference info from external application: Cannot invoke "com.st.stm32cube.common.mx.MxActivator.getBundle()" because the return value of "com.st.stm32cube.common.mx.MxActivator.getDefault()" is null
+2024-02-15 00:40:01,251 [ERROR] ExternalUserPreferencesManager:560 - Error while get preference info from external application: Cannot invoke "com.st.stm32cube.common.mx.MxActivator.getBundle()" because the return value of "com.st.stm32cube.common.mx.MxActivator.getDefault()" is null
+2024-02-15 00:40:01,302 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
