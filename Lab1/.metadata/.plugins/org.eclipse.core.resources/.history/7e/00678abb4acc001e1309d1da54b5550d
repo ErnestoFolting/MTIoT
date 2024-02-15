@@ -214,7 +214,7 @@ void EXTI4_IRQHandler(void)
 
 /**
   * @brief This function handles TIM2 global interrupt.
-  */
+  */HAL_GPIO_EXTI_Callback(GPIO_Pin)
 void TIM2_IRQHandler(void)
 {
   /* USER CODE BEGIN TIM2_IRQn 0 */

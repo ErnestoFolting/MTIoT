@@ -218,6 +218,11 @@ void EXTI4_IRQHandler(void)
 void TIM2_IRQHandler(void)
 {
   /* USER CODE BEGIN TIM2_IRQn 0 */
+	if(HAL_GPIO_ReadPin(GPIOA,GPIO_PIN_4)){
+		//HAL_GPIO_WritePin(GPIOA, GPIO_PIN_1, HAL_GPIO_ReadPin(GPIOA,GPIO_PIN_4));
+		HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_0);
+		HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_1);
+	}
   //
   /* USER CODE END TIM2_IRQn 0 */
   HAL_TIM_IRQHandler(&htim2);
