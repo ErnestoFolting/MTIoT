@@ -266,3 +266,426 @@ Finished building: default.size.stdout
  
 Finished building: Lab1CubeIDE.list
  
+13:47:44 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_hal_msp.c" -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f1xx_hal_msp.d" -MT"Core/Src/stm32f1xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_hal_msp.o"
+arm-none-eabi-gcc -o "Lab1CubeIDE.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Education\MTIoT\MTIoT\Lab1\Lab1CubeIDE\STM32F103T6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1CubeIDE.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1CubeIDE.elf
+ 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+arm-none-eabi-objdump -h -S Lab1CubeIDE.elf  > "Lab1CubeIDE.list"
+   text	   data	    bss	    dec	    hex	filename
+   5548	     20	   1716	   7284	   1c74	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1CubeIDE.list
+ 
+14:18:03 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:319:23: error: 'GPIOA_PIN_4' undeclared (first use in this function); did you mean 'GPIO_PIN_4'?
+  319 |         if(GPIO_Pin & GPIOA_PIN_4){
+      |                       ^~~~~~~~~~~
+      |                       GPIO_PIN_4
+../Core/Src/main.c:319:23: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+14:18:06 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:319:23: error: 'GPIOA_PIN_4' undeclared (first use in this function); did you mean 'GPIO_PIN_4'?
+  319 |         if(GPIO_Pin & GPIOA_PIN_4){
+      |                       ^~~~~~~~~~~
+      |                       GPIO_PIN_4
+../Core/Src/main.c:319:23: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+14:18:37 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab1CubeIDE.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Education\MTIoT\MTIoT\Lab1\Lab1CubeIDE\STM32F103T6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1CubeIDE.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1CubeIDE.elf
+ 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+arm-none-eabi-objdump -h -S Lab1CubeIDE.elf  > "Lab1CubeIDE.list"
+   text	   data	    bss	    dec	    hex	filename
+   5576	     20	   1716	   7312	   1c90	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1CubeIDE.list
+ 
+14:18:40 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5576	     20	   1716	   7312	   1c90	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+14:18:41 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5576	     20	   1716	   7312	   1c90	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+14:18:42 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5576	     20	   1716	   7312	   1c90	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+14:18:43 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5576	     20	   1716	   7312	   1c90	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+14:18:44 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5576	     20	   1716	   7312	   1c90	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+14:18:45 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5576	     20	   1716	   7312	   1c90	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+14:18:45 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5576	     20	   1716	   7312	   1c90	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+14:18:46 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5576	     20	   1716	   7312	   1c90	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+14:26:20 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab1CubeIDE.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Education\MTIoT\MTIoT\Lab1\Lab1CubeIDE\STM32F103T6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1CubeIDE.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1CubeIDE.elf
+ 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+arm-none-eabi-objdump -h -S Lab1CubeIDE.elf  > "Lab1CubeIDE.list"
+   text	   data	    bss	    dec	    hex	filename
+   5656	     20	   1716	   7392	   1ce0	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1CubeIDE.list
+ 
+14:28:36 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5656	     20	   1716	   7392	   1ce0	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+14:31:02 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5656	     20	   1716	   7392	   1ce0	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+14:31:58 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab1CubeIDE.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Education\MTIoT\MTIoT\Lab1\Lab1CubeIDE\STM32F103T6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1CubeIDE.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1CubeIDE.elf
+ 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+arm-none-eabi-objdump -h -S Lab1CubeIDE.elf  > "Lab1CubeIDE.list"
+   text	   data	    bss	    dec	    hex	filename
+   5664	     20	   1716	   7400	   1ce8	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1CubeIDE.list
+ 
+14:33:09 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab1CubeIDE.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Education\MTIoT\MTIoT\Lab1\Lab1CubeIDE\STM32F103T6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1CubeIDE.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1CubeIDE.elf
+ 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+arm-none-eabi-objdump -h -S Lab1CubeIDE.elf  > "Lab1CubeIDE.list"
+   text	   data	    bss	    dec	    hex	filename
+   5624	     20	   1716	   7360	   1cc0	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1CubeIDE.list
+ 
+14:37:32 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab1CubeIDE.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Education\MTIoT\MTIoT\Lab1\Lab1CubeIDE\STM32F103T6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1CubeIDE.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1CubeIDE.elf
+ 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+arm-none-eabi-objdump -h -S Lab1CubeIDE.elf  > "Lab1CubeIDE.list"
+   text	   data	    bss	    dec	    hex	filename
+   5656	     20	   1716	   7392	   1ce0	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1CubeIDE.list
+ 
+14:37:37 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5656	     20	   1716	   7392	   1ce0	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+14:37:37 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5656	     20	   1716	   7392	   1ce0	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+15:42:43 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+../Core/Src/stm32f1xx_it.c: In function 'TIM2_IRQHandler':
+../Core/Src/stm32f1xx_it.c:235:12: error: 'GPIO_Pin' undeclared (first use in this function); did you mean 'GPIO_PIN_4'?
+  235 |         if(GPIO_Pin & GPIO_PIN_4){
+      |            ^~~~~~~~
+      |            GPIO_PIN_4
+../Core/Src/stm32f1xx_it.c:235:12: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:34: Core/Src/stm32f1xx_it.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+15:43:04 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+arm-none-eabi-gcc -o "Lab1CubeIDE.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Education\MTIoT\MTIoT\Lab1\Lab1CubeIDE\STM32F103T6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1CubeIDE.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1CubeIDE.elf
+ 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+arm-none-eabi-objdump -h -S Lab1CubeIDE.elf  > "Lab1CubeIDE.list"
+   text	   data	    bss	    dec	    hex	filename
+   5708	     20	   1716	   7444	   1d14	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1CubeIDE.list
+ 
+15:44:00 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+arm-none-eabi-gcc -o "Lab1CubeIDE.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Education\MTIoT\MTIoT\Lab1\Lab1CubeIDE\STM32F103T6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1CubeIDE.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1CubeIDE.elf
+ 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+arm-none-eabi-objdump -h -S Lab1CubeIDE.elf  > "Lab1CubeIDE.list"
+   text	   data	    bss	    dec	    hex	filename
+   5776	     20	   1716	   7512	   1d58	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1CubeIDE.list
+ 
+15:44:04 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5776	     20	   1716	   7512	   1d58	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+15:44:04 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5776	     20	   1716	   7512	   1d58	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+15:44:08 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5776	     20	   1716	   7512	   1d58	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+15:45:58 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+arm-none-eabi-gcc -o "Lab1CubeIDE.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Education\MTIoT\MTIoT\Lab1\Lab1CubeIDE\STM32F103T6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1CubeIDE.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1CubeIDE.elf
+ 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+arm-none-eabi-objdump -h -S Lab1CubeIDE.elf  > "Lab1CubeIDE.list"
+   text	   data	    bss	    dec	    hex	filename
+   5796	     20	   1716	   7532	   1d6c	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1CubeIDE.list
+ 
+15:49:36 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab1CubeIDE.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Education\MTIoT\MTIoT\Lab1\Lab1CubeIDE\STM32F103T6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1CubeIDE.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1CubeIDE.elf
+ 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+arm-none-eabi-objdump -h -S Lab1CubeIDE.elf  > "Lab1CubeIDE.list"
+   text	   data	    bss	    dec	    hex	filename
+   5816	     20	   1716	   7552	   1d80	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1CubeIDE.list
+ 
+15:59:04 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+arm-none-eabi-gcc -o "Lab1CubeIDE.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Education\MTIoT\MTIoT\Lab1\Lab1CubeIDE\STM32F103T6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1CubeIDE.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1CubeIDE.elf
+ 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+arm-none-eabi-objdump -h -S Lab1CubeIDE.elf  > "Lab1CubeIDE.list"
+   text	   data	    bss	    dec	    hex	filename
+   5648	     20	   1716	   7384	   1cd8	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1CubeIDE.list
+ 
+15:59:08 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5648	     20	   1716	   7384	   1cd8	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+15:59:09 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5648	     20	   1716	   7384	   1cd8	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+15:59:10 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5648	     20	   1716	   7384	   1cd8	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+15:59:10 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5648	     20	   1716	   7384	   1cd8	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+15:59:12 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5648	     20	   1716	   7384	   1cd8	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+15:59:12 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5648	     20	   1716	   7384	   1cd8	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+15:59:13 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5648	     20	   1716	   7384	   1cd8	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+15:59:14 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5648	     20	   1716	   7384	   1cd8	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+15:59:14 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5648	     20	   1716	   7384	   1cd8	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+16:03:36 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab1CubeIDE.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Education\MTIoT\MTIoT\Lab1\Lab1CubeIDE\STM32F103T6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1CubeIDE.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1CubeIDE.elf
+ 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+arm-none-eabi-objdump -h -S Lab1CubeIDE.elf  > "Lab1CubeIDE.list"
+   text	   data	    bss	    dec	    hex	filename
+   5676	     20	   1716	   7412	   1cf4	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1CubeIDE.list
+ 
+16:03:41 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5676	     20	   1716	   7412	   1cf4	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+16:03:43 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5676	     20	   1716	   7412	   1cf4	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+16:03:45 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5676	     20	   1716	   7412	   1cf4	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+16:03:46 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5676	     20	   1716	   7412	   1cf4	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+16:03:47 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5676	     20	   1716	   7412	   1cf4	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+16:03:48 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5676	     20	   1716	   7412	   1cf4	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
+16:03:49 **** Incremental Build of configuration Release for project Lab1CubeIDE ****
+make -j12 all 
+arm-none-eabi-size  Lab1CubeIDE.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5676	     20	   1716	   7412	   1cf4	Lab1CubeIDE.elf
+Finished building: default.size.stdout
+ 
